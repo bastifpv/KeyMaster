@@ -1,0 +1,67 @@
+{
+    "manufacturer": "Bastian Reuther",
+    "keyboard_name": "KeyMaster",
+    "maintainer": "bastifpv",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true
+    },
+
+    "matrix_pins": {
+        "rows": ["GP0", "GP1", "GP2"],
+        "cols": ["GP3", "GP4", "GP5"]
+    },
+    "dip_switch": {
+        "pins": ["GP28", "GP28"]
+    },
+
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "2.0.0",
+        "pid": "0x7839",
+        "vid": "0x4252"
+    },
+
+
+    "layouts": {
+        "LAYOUT_ortho_3x3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+        },
+
+        "LAYOUT_1x1": { // Add a new layout for the 1x1 matrix
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+
+    },
+    
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+   
+    "encoder": {
+        "rotary": [
+        { "pin_a": "GP14", "pin_b": "GP15", "resolution": 4 }
+        ]
+    }
+
+}
