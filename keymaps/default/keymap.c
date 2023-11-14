@@ -22,7 +22,11 @@ bool dip_switch_update_user(uint8_t index, bool active)
 
     if (active)
     {
-       tap_code(KC_1);
+      tap_code(KC_1);  
+    }
+    else
+    {
+       tap_code(KC_1);  
     }
     return true;
-}
+}8

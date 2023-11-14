@@ -18,9 +18,6 @@
         "rows": ["GP0", "GP1", "GP2"],
         "cols": ["GP3", "GP4", "GP5"]
     },
-    "dip_switch": {
-        "pins": ["GP28", "GP28"]
-    },
 
     "processor": "RP2040",
     "url": "",
@@ -43,12 +40,6 @@
                 {"matrix": [2, 0], "x": 0, "y": 2},
                 {"matrix": [2, 1], "x": 1, "y": 2},
                 {"matrix": [2, 2], "x": 2, "y": 2}
-            ]
-        },
-
-        "LAYOUT_1x1": { // Add a new layout for the 1x1 matrix
-            "layout": [
-                {"matrix": [0, 0], "x": 0, "y": 0}
             ]
         }
 
