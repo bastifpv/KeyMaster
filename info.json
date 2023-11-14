@@ -18,7 +18,9 @@
         "rows": ["GP0", "GP1", "GP2"],
         "cols": ["GP3", "GP4", "GP5"]
     },
-
+    "dip_switch": {
+        "pins": ["GP29"]
+    },
     "processor": "RP2040",
     "url": "",
     "usb": {
