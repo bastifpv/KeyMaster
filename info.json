@@ -25,7 +25,7 @@
     "url": "",
     "usb": {
         "device_version": "2.0.0",
-        "pid": "0x7839",
+        "pid": "0x4B4D",
         "vid": "0x4252"
     },
 
