@@ -15,12 +15,12 @@
     },
 
     "matrix_pins": {
-        "rows": ["GP0", "GP1", "GP2"],
-        "cols": ["GP3", "GP4", "GP5", "GP29"]
+        "rows": ["GP2", "GP1", "GP0"],
+        "cols": ["GP5", "GP4", "GP3", "GP29"]
     },
 
     "processor": "RP2040",
-    "url": "",
+    "url": "https://github.com/bastifpv/KeyMaster",
     "usb": {
         "device_version": "2.0.0",
         "pid": "0x4B4D",
@@ -29,7 +29,7 @@
 
 
     "layouts": {
-        "LAYOUT_ortho_3x4": {
+        "LAYOUT": {
             "layout":  [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
