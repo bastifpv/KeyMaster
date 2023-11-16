@@ -18,4 +18,3 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-#define DIP_SWITCH_PINS { GP29 }
