@@ -16,7 +16,7 @@
 
     "matrix_pins": {
         "rows": ["GP2", "GP1", "GP0"],
-        "cols": ["GP5", "GP4", "GP3", "GP29"]
+        "cols": ["GP5", "GP4", "GP3", "GP6"]
     },
 
     "processor": "RP2040",
@@ -54,7 +54,7 @@
    
     "encoder": {
         "rotary": [
-        { "pin_a": "GP14", "pin_b": "GP15", "resolution": 4 }
+        { "pin_a": "GP29", "pin_b": "GP28", "resolution": 4 }
         ]
     }
 
