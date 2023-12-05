@@ -1,6 +1,7 @@
 # KeyMaster
-This is a simple 3x3 macropad with a rotary encoder based on the rp2040 Raspberry Pi Pico. 
-You can use VIA if you flash the VIA keymap.
+This is a simple 3x3 macro pad with a rotary encoder based on the RP2040 Raspberry Pi Pico. 
+You have 9 full programmable buttons and a jog wheel with an extra button. To program your key codes, you can use [VIA](https://www.caniusevia.com/). 
+
 
 - [Hardware:](#hardware)
 - [Build your own](#build-your-own)
@@ -9,6 +10,7 @@ You can use VIA if you flash the VIA keymap.
 
 ![Image](images/Keymaster1.JPEG)
 ![Image](images/Keymaster4.JPEG)
+![Image](images/VIA.png)
 
 
 
